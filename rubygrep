@@ -1,0 +1,18 @@
+#!/usr/bin/ruby
+require 'rubygems' 
+require 'bundler/setup'
+require "/Users/misha/Rails/RubyGrep/directory.rb"
+require "/Users/misha/Rails/RubyGrep/file.rb"
+require "/Users/misha/Rails/RubyGrep/line.rb"
+
+
+
+directory = RubyGrep::Directory.new
+directory.sort_entries
+p directory
+
+bundler
+ruby 2.0
+colorize
+izbavitsya ot vseh probelov
+sdelat' formatiroavanie
