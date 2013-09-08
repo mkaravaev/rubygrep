@@ -2,7 +2,7 @@ module RubyGrep
 
 	class Line
 
-		#require "colorize"
+		require 'colorize'
 
 		attr_reader :contents
 
@@ -13,7 +13,7 @@ module RubyGrep
 		end
 
 		def to_s
-			"#{@number}: #{@contents} "
+			"#{@number}:" + " #{@contents} ".red
 		end
 
 	end

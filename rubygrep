@@ -7,12 +7,9 @@ require "/Users/misha/Rails/RubyGrep/line.rb"
 
 
 
-directory = RubyGrep::Directory.new
-directory.sort_entries
-p directory
+directory = RubyGrep::Directory.new(ARGV[0], ARGV[1])
+directory.print_files
 
-bundler
-ruby 2.0
-colorize
-izbavitsya ot vseh probelov
-sdelat' formatiroavanie
+# colorize
+# izbavitsya ot vseh probelov
+# sdelat' formatiroavanie
