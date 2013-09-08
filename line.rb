@@ -13,7 +13,7 @@ module RubyGrep
 		end
 
 		def to_s
-			"#{@number}:" + " #{@contents} ".red
+			"#{@number}:" + " #{@contents.strip} ".red
 		end
 
 	end
